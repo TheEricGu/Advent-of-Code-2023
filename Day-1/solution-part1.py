@@ -1,6 +1,5 @@
 input = open('input.txt', 'r')
 lines = input.readlines()
- 
 sum = 0
 for line in lines:
     firstDigit = 0
