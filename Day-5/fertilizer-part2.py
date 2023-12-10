@@ -26,8 +26,8 @@ def map_src_to_dest(map, number): # re-map the current number
             return number + (src_start - dst_start)
     return number
 map_names.reverse()
-location_number = 0
-# location_number = 26714515 # why is my answer the correct answer + 1?
+# location_number = 0
+location_number = 26714500 # why is my answer the correct answer + 1?
 seed_not_found = True
 while seed_not_found: # test all location numbers from 0 until one reverse mapped location number originates from a valid seed
     location_number += 1
